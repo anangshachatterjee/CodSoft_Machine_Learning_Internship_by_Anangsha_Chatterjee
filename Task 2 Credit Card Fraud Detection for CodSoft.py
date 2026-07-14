@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 # ==========================================
 # Load the Datasets and Check Missing Values
 # ==========================================
-with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (Credit Card Fraud Dataset).zip") as z:
+with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (Credit Card Fraud Dataset)") as z:
 
     train_df = pd.read_csv(z.open("fraudTrain.csv"))
     test_df = pd.read_csv(z.open("fraudTest.csv"))
