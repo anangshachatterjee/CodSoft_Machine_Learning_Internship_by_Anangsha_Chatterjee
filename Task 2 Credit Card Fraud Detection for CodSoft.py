@@ -246,7 +246,7 @@ table.scale(1.5, 2.0)
 for (row, col), cell in table.get_celld().items():
     if row == 0:
         cell.set_text_props(weight='bold')
-        cell.set_facecolor('lightgray')
+        cell.set_facecolor('green')
 
 plt.title("A comparision table which will show all the metrics evaluation performed for each algorithm",
           fontsize=14,
