@@ -19,7 +19,7 @@ from sklearn.naive_bayes import MultinomialNB
 # ==========================================
 # Load the Datasets and Check Missing Values
 # ==========================================
-with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (3).zip") as z:
+with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (SMS Spam Dataset).zip") as z:
     with z.open("spam.csv") as file:
         df = pd.read_csv(file, encoding="latin-1")
 
