@@ -16,7 +16,7 @@ import zipfile
 # ==========================================
 # Load the Datasets and Check Missing Values
 # ==========================================
-with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (2).zip") as z:
+with zipfile.ZipFile(r"C:\Users\ANANGSHA\Downloads\archive (Customer Churn Dataset).zip") as z:
 
     df = pd.read_csv(z.open("Churn_Modelling.csv"))
 
